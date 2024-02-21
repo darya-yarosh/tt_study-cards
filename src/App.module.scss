@@ -1,0 +1,75 @@
+:root {
+	--font-color: #3c4b64;
+	--icon-filter-without-bg: invert(27%) sepia(10%) saturate(1736%)
+		hue-rotate(179deg) brightness(94%) contrast(87%);
+	--icon-filter-with-bg: invert(99%) sepia(100%) saturate(2%)
+		hue-rotate(171deg) brightness(105%) contrast(101%);
+}
+
+.wrapper {
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	gap: 12px;
+	color: var(--font-color);
+}
+
+.contentWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding: 12px;
+	align-items: flex-start;
+}
+
+input,
+textarea,
+select {
+	height: inherit;
+	width: inherit;
+	color: var(--font-color);
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid lightgray;
+}
+
+select:disabled {
+	background: #f2f2f2;
+}
+
+.cardList {
+	display: grid;
+	justify-items: center;
+	align-items: start;
+	gap: 24px;
+	grid-template-columns: 1fr 1fr;
+	width: max-content;
+}
+
+@media screen and (max-width: 1300px) {
+	.cardList {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.wrapper,
+	input,
+	textarea,
+	select,
+	button,
+	th,
+	td,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 0.6rem !important;
+	}
+}
