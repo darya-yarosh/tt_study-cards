@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/tt_study-cards/static/css/main.83287e0b.css",
+    "main.js": "/tt_study-cards/static/js/main.aec1546d.js",
+    "static/js/453.12c1b0db.chunk.js": "/tt_study-cards/static/js/453.12c1b0db.chunk.js",
+    "static/media/applyToAllBelow.svg": "/tt_study-cards/static/media/applyToAllBelow.bf6376b9b9e0d58a1b647408720bd700.svg",
+    "static/media/subject.svg": "/tt_study-cards/static/media/subject.a9722776b21d1d3bd60280055c06cfa0.svg",
+    "static/media/add.svg": "/tt_study-cards/static/media/add.7d1addd73e996d6002cde4fa07d1d2fa.svg",
+    "static/media/remove.svg": "/tt_study-cards/static/media/remove.97b6fb4fd04d0748b5b2f21ff3532656.svg",
+    "index.html": "/tt_study-cards/index.html",
+    "main.83287e0b.css.map": "/tt_study-cards/static/css/main.83287e0b.css.map",
+    "main.aec1546d.js.map": "/tt_study-cards/static/js/main.aec1546d.js.map",
+    "453.12c1b0db.chunk.js.map": "/tt_study-cards/static/js/453.12c1b0db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83287e0b.css",
+    "static/js/main.aec1546d.js"
+  ]
+}
