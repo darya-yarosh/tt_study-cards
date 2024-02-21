@@ -1,0 +1,25 @@
+.button {
+	border-radius: 4px;
+	width: fit-content;
+	padding: 8px 12px;
+
+	cursor: pointer;
+}
+
+.confirm {
+	border: 1px solid #198754;
+	background-color: #198754;
+	color: white;
+}
+
+.cancel {
+	border: 1px solid #871919;
+	background-color: #871919;
+	color: white;
+}
+
+.cancel {
+	border: 1px solid var(--font-color);
+	background-color: white;
+	color: var(--font-color);
+}
