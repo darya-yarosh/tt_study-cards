@@ -1,0 +1,35 @@
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	cursor: pointer;
+
+	background: none;
+	border: none;
+
+	.icon {
+		width: 16px;
+		filter: var(--icon-filter-without-bg);
+	}
+}
+
+.wrapperBG {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	cursor: pointer;
+
+	padding: 4px;
+	background-color: var(--font-color);
+	border: 1px solid var(--font-color);
+	border-radius: 4px;
+
+	.icon {
+		width: 20px;
+		filter: var(--icon-filter-with-bg);
+	}
+}
